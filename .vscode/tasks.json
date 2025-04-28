@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-and-run-docker",
+            "type": "shell",
+            "command": "docker build -t bot-sentinel . && docker run --rm bot-sentinel",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
